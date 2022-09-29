@@ -1,0 +1,99 @@
+/* STRAN NIMA WGHITE SPACA*/
+body{
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+  background-color: #FAF9F6;
+}
+
+.container{
+    margin-left:  200px;
+    margin-right: 200px;
+}
+/* PROSTOR ZA FONTE*/
+@font-face {
+    font-family: 'Naslov';
+    src: url(fonts/BodoniFLF-Roman.ttf) format('truetype');
+    font-weight: normal;
+}
+
+/* NASLOVI*/
+.naslov{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: aliceblue;
+    font-family: naslov, serif;
+    font-size: 48px;
+    letter-spacing: 5px;    
+}
+
+/*ISKALNIK KRAJEV */
+.slocation {
+    
+    height: 30px;
+    top: 250px;
+    width: 350px;
+    resize: vertical;
+}
+
+/* BUTTONS */
+.lbtn{
+    position: absolute;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 1px solid rgba(240, 248, 255, 0.849);
+    border-radius: 3px;
+    width: 100px;
+    height: 35px;
+    color: black;
+    font-size: 16px;
+    font-weight: bold ;
+    cursor: pointer;
+}
+.ibtn{
+    position: absolute;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: transparent;
+    width: 80px;
+    height: 35px;
+    color: black;
+    font-size: 16px;
+    font-weight: bold ;
+    cursor: pointer;    
+}
+/* Gray */
+.default {
+    
+    color: white;
+  }
+  .default:hover {
+    color: rgba(240, 248, 255, 0.849);
+    
+  }
+/* konec*/
+.ldesno{
+    top: 15px;
+    right: 25px;
+}
+.lmargin{
+    top: 15px;
+    right: 140px;
+}
+.limargin{
+    top: 15px;
+    right: 255px;
+}
+.lkmargin{
+    top: 15px;
+    right: 370px;
+}
+/*END OF BUTTONS */
+/*slika */
+.img-fluid{
+    width: 100%;
+    height: 500px;
+}
+
+
